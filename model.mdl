@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.159"
+    ComputedModelVersion    "1.160"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -24,11 +24,11 @@ Model {
   Creator		  "flp"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "ACME"
+  LastModifiedBy	  "flp"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Jan 24 22:17:08 2014"
-  RTWModifiedTimeStamp	  312494622
-  ModelVersionFormat	  "1.%<AutoIncrement:159>"
+  LastModifiedDate	  "Thu Feb 06 12:22:03 2014"
+  RTWModifiedTimeStamp	  313590108
+  ModelVersionFormat	  "1.%<AutoIncrement:160>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -815,7 +815,7 @@ Model {
   }
   System {
     Name		    "model"
-    Location		    [2, 82, 1262, 995]
+    Location		    [2, 70, 1918, 1016]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -829,13 +829,13 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "15098"
+    SIDHighWatermark	    "15195"
     Block {
       BlockType		      Scope
       Name		      "# Entities \nin Queue"
       SID		      "1502"
       Ports		      [1]
-      Position		      [720, 179, 750, 211]
+      Position		      [640, 69, 670, 101]
       NamePlacement	      "alternate"
       Floating		      off
       Location		      [1, 48, 1281, 1023]
@@ -854,7 +854,9 @@ Model {
       Name		      "%"
       SID		      "13051"
       Ports		      [1]
-      Position		      [960, 455, 1050, 485]
+      Position		      [640, 393, 725, 417]
+      BlockMirror	      on
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -863,7 +865,7 @@ Model {
       Name		      "Average Elapsed Time"
       SID		      "13528"
       Ports		      [1]
-      Position		      [980, 624, 1130, 656]
+      Position		      [955, 489, 1105, 521]
       Format		      "long"
       Decimation	      "1"
       Lockdown		      off
@@ -873,7 +875,7 @@ Model {
       Name		      "Cola de Bloqueados"
       SID		      "1"
       Ports		      [0, 1, 0, 0, 0, 1, 1]
-      Position		      [540, 442, 675, 558]
+      Position		      [420, 457, 555, 573]
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -977,7 +979,7 @@ Model {
       Name		      "Cola de Listos"
       SID		      "12015"
       Ports		      [0, 2, 0, 0, 0, 3, 1]
-      Position		      [540, 146, 675, 244]
+      Position		      [440, 131, 575, 229]
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -1160,7 +1162,7 @@ Model {
       Name		      "Departed"
       SID		      "811"
       Ports		      [1]
-      Position		      [540, 90, 690, 120]
+      Position		      [440, 71, 575, 99]
       BlockMirror	      on
       Format		      "long"
       Decimation	      "1"
@@ -1171,8 +1173,9 @@ Model {
       Name		      "Display"
       SID		      "14"
       Ports		      [1]
-      Position		      [790, 660, 880, 690]
+      Position		      [660, 580, 750, 610]
       BlockMirror	      on
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -1181,8 +1184,8 @@ Model {
       Name		      "Display1"
       SID		      "13429"
       Ports		      [1]
-      Position		      [400, 385, 490, 415]
-      BlockMirror	      on
+      Position		      [250, 395, 340, 425]
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -1191,7 +1194,9 @@ Model {
       Name		      "Display2"
       SID		      "14128"
       Ports		      [1]
-      Position		      [170, 105, 260, 135]
+      Position		      [45, 60, 135, 90]
+      BlockMirror	      on
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -1200,7 +1205,7 @@ Model {
       Name		      "Elapsed Time"
       SID		      "13527"
       Ports		      [1]
-      Position		      [975, 559, 1135, 591]
+      Position		      [955, 419, 1115, 451]
       Format		      "long"
       Decimation	      "1"
       Lockdown		      off
@@ -1210,7 +1215,7 @@ Model {
       Name		      "Elapsed Time1"
       SID		      "13928"
       Ports		      [1]
-      Position		      [565, 595, 655, 625]
+      Position		      [420, 415, 510, 445]
       BlockMirror	      on
       ShowName		      off
       Decimation	      "1"
@@ -1221,7 +1226,8 @@ Model {
       Name		      "Finished"
       SID		      "15"
       Ports		      [0, 1, 0, 0, 0, 1]
-      Position		      [795, 583, 880, 637]
+      Position		      [795, 568, 880, 622]
+      BlockMirror	      on
       LibraryVersion	      "1.272"
       UserDataPersistent      on
       UserData		      "DataTag3"
@@ -1244,7 +1250,7 @@ Model {
       Name		      "Fuente"
       SID		      "16"
       Ports		      [0, 1, 0, 0, 0, 0, 1]
-      Position		      [20, 117, 135, 213]
+      Position		      [30, 122, 145, 218]
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -1254,7 +1260,7 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"Fuente"
-	Location		[2, 101, 282, 978]
+	Location		[2, 101, 298, 978]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2402,7 +2408,8 @@ Model {
       Name		      "IO"
       SID		      "47"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [540, 284, 675, 396]
+      Position		      [420, 274, 555, 386]
+      BlockMirror	      on
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -3115,8 +3122,10 @@ Model {
       Name		      "IO1"
       SID		      "13047"
       Ports		      [1]
-      Position		      [960, 296, 1055, 324]
+      Position		      [640, 319, 730, 341]
+      BlockMirror	      on
       NamePlacement	      "alternate"
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -3125,7 +3134,9 @@ Model {
       Name		      "IO2"
       SID		      "13049"
       Ports		      [1]
-      Position		      [960, 345, 1050, 375]
+      Position		      [640, 343, 730, 367]
+      BlockMirror	      on
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -3134,7 +3145,9 @@ Model {
       Name		      "IO3"
       SID		      "13050"
       Ports		      [1]
-      Position		      [960, 395, 1050, 425]
+      Position		      [640, 369, 725, 391]
+      BlockMirror	      on
+      ShowName		      off
       Decimation	      "1"
       Lockdown		      off
     }
@@ -3143,7 +3156,7 @@ Model {
       Name		      "IO?"
       SID		      "5959"
       Ports		      [0, 0, 0, 0, 0, 1, 2]
-      Position		      [925, 120, 1085, 255]
+      Position		      [835, 146, 920, 204]
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -4452,7 +4465,7 @@ Model {
       Name		      "Output Switch"
       SID		      "13427"
       Ports		      [0, 0, 0, 0, 0, 1, 2]
-      Position		      [385, 167, 465, 218]
+      Position		      [250, 167, 330, 218]
       LibraryVersion	      "1.371"
       UserDataPersistent      on
       UserData		      "DataTag28"
@@ -4488,7 +4501,7 @@ Model {
       Name		      "Procesador"
       SID		      "62"
       Ports		      [0, 0, 0, 0, 0, 1, 2]
-      Position		      [775, 158, 895, 287]
+      Position		      [660, 143, 780, 272]
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -5450,7 +5463,7 @@ Model {
       Name		      "Read Timer"
       SID		      "13526"
       Ports		      [0, 2, 0, 0, 0, 1, 1]
-      Position		      [795, 488, 880, 542]
+      Position		      [795, 478, 880, 532]
       LibraryVersion	      "1.206"
       UserDataPersistent      on
       UserData		      "DataTag38"
@@ -5478,7 +5491,8 @@ Model {
       Name		      "Rechazados"
       SID		      "13428"
       Ports		      [0, 1, 0, 0, 0, 1]
-      Position		      [400, 288, 485, 342]
+      Position		      [250, 288, 335, 342]
+      BlockMirror	      on
       LibraryVersion	      "1.272"
       UserDataPersistent      on
       UserData		      "DataTag39"
@@ -5501,7 +5515,7 @@ Model {
       Name		      "Start Timer"
       SID		      "13525"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [170, 163, 255, 217]
+      Position		      [170, 168, 220, 222]
       LibraryVersion	      "1.206"
       UserDataPersistent      on
       UserData		      "DataTag40"
@@ -5525,7 +5539,8 @@ Model {
       Name		      "get _process_time"
       SID		      "12856"
       Ports		      [0, 4, 0, 0, 0, 1, 1]
-      Position		      [795, 316, 875, 454]
+      Position		      [795, 311, 875, 449]
+      BlockMirror	      on
       ShowName		      off
       LibraryVersion	      "1.228"
       UserDataPersistent      on
@@ -5561,27 +5576,27 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "Cola de Bloqueados"
       SrcPort		      RConn1
-      Points		      [0, -110; -165, 0]
+      Points		      [25, 0; 0, -215]
       DstBlock		      "IO"
       DstPort		      LConn1
     }
     Line {
       SrcBlock		      "Finished"
       SrcPort		      1
-      Points		      [10, 0]
       DstBlock		      "Display"
       DstPort		      1
     }
     Line {
       SrcBlock		      "Cola de Listos"
       SrcPort		      1
-      Points		      [35, 0; 0, -60]
+      Points		      [20, 0; 0, -65]
       DstBlock		      "Departed"
       DstPort		      1
     }
     Line {
       SrcBlock		      "Cola de Listos"
       SrcPort		      2
+      Points		      [30, 0; 0, -95]
       DstBlock		      "# Entities \nin Queue"
       DstPort		      1
     }
@@ -5589,7 +5604,7 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "IO"
       SrcPort		      RConn1
-      Points		      [0, -70; -165, 0]
+      Points		      [0, -120]
       DstBlock		      "Cola de Listos"
       DstPort		      LConn3
     }
@@ -5597,7 +5612,7 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "IO?"
       SrcPort		      RConn1
-      Points		      [0, -80; -575, 0]
+      Points		      [0, -140; -510, 0]
       DstBlock		      "Cola de Listos"
       DstPort		      LConn1
     }
@@ -5605,7 +5620,7 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "IO?"
       SrcPort		      RConn2
-      Points		      [0, 650; -575, 0]
+      Points		      [205, 0; 0, 485; -735, 0]
       DstBlock		      "Cola de Bloqueados"
       DstPort		      LConn1
     }
@@ -5620,7 +5635,7 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "get _process_time"
       SrcPort		      RConn1
-      Points		      [5, 0; 0, 35; -120, 0; 0, 45]
+      Points		      [-45, 0; 0, 75]
       DstBlock		      "Read Timer"
       DstPort		      LConn1
     }
@@ -5628,14 +5643,13 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "get _process_time"
       SrcPort		      LConn1
-      Points		      [-5, 0; 0, -80; 140, 0; 0, -50]
+      Points		      [45, 0; 0, -140]
       DstBlock		      "Procesador"
       DstPort		      RConn2
     }
     Line {
       SrcBlock		      "get _process_time"
       SrcPort		      1
-      Points		      [60, 0; 0, -25]
       DstBlock		      "IO1"
       DstPort		      1
     }
@@ -5648,14 +5662,12 @@ Model {
     Line {
       SrcBlock		      "get _process_time"
       SrcPort		      3
-      Points		      [60, 0; 0, 25]
       DstBlock		      "IO3"
       DstPort		      1
     }
     Line {
       SrcBlock		      "get _process_time"
       SrcPort		      4
-      Points		      [45, 0; 0, 60]
       DstBlock		      "%"
       DstPort		      1
     }
@@ -5663,7 +5675,6 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "Output Switch"
       SrcPort		      RConn1
-      Points		      [20, 0; 0, 15]
       DstBlock		      "Cola de Listos"
       DstPort		      LConn2
     }
@@ -5671,14 +5682,14 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "Output Switch"
       SrcPort		      RConn2
-      Points		      [5, 0; 0, 75; -105, 0; 0, 35]
+      Points		      [15, 0; 0, 110]
       DstBlock		      "Rechazados"
       DstPort		      LConn1
     }
     Line {
       SrcBlock		      "Rechazados"
       SrcPort		      1
-      Points		      [25, 0; 0, 85]
+      Points		      [-35, 0; 0, 95]
       DstBlock		      "Display1"
       DstPort		      1
     }
@@ -5700,44 +5711,59 @@ Model {
       LineType		      "Connection"
       SrcBlock		      "Read Timer"
       SrcPort		      RConn1
-      Points		      [5, 0; 0, 40; -125, 0; 0, 35]
+      Points		      [5, 0; 0, 70]
       DstBlock		      "Finished"
       DstPort		      LConn1
     }
     Line {
       SrcBlock		      "Read Timer"
       SrcPort		      1
-      Points		      [35, 0; 0, 80]
+      Points		      [55, 0]
       DstBlock		      "Elapsed Time"
       DstPort		      1
     }
     Line {
       SrcBlock		      "Read Timer"
       SrcPort		      2
-      Points		      [25, 0; 0, 125]
       DstBlock		      "Average Elapsed Time"
       DstPort		      1
     }
     Line {
       SrcBlock		      "Cola de Bloqueados"
       SrcPort		      1
-      Points		      [35, 0; 0, 140]
+      Points		      [5, 0; 0, -55]
       DstBlock		      "Elapsed Time1"
       DstPort		      1
     }
     Line {
       SrcBlock		      "Fuente"
       SrcPort		      1
-      Points		      [10, 0; 0, -15; 5, 0]
+      Points		      [10, 0; 0, -70]
       DstBlock		      "Display2"
       DstPort		      1
     }
     Annotation {
-      Position		      [53, 185]
+      Position		      [63, 190]
     }
     Annotation {
       Name		      "Los tiempos estan en Milisegundos"
-      Position		      [116, 559]
+      Position		      [301, 24]
+    }
+    Annotation {
+      Name		      "IO1"
+      Position		      [622, 331]
+    }
+    Annotation {
+      Name		      "IO2"
+      Position		      [619, 354]
+    }
+    Annotation {
+      Name		      "IO3"
+      Position		      [621, 380]
+    }
+    Annotation {
+      Name		      "%PPT"
+      Position		      [615, 408]
     }
   }
 }
