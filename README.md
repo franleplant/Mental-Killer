@@ -13,3 +13,5 @@ Operative System task manager simulation model
 
 `example.mdl` is an example of how synchronicity of entities attribute get-set cycle works.
 
+
+![Requirements](https://raw.github.com/franleplant/Mental-Killer/master/requirements.jpg "Requirements")
